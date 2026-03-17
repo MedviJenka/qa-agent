@@ -1,0 +1,21 @@
+{
+  "name": "devflow-qa",
+  "description": "QA regression guard for React + TypeScript — analyzes PR changes, detects regression risks, and generates Playwright tests",
+  "author": { "name": "Dean0x" },
+  "version": "1.0.0",
+  "homepage": "https://github.com/dean0x/devflow",
+  "repository": "https://github.com/dean0x/devflow",
+  "license": "MIT",
+  "keywords": ["qa", "regression", "playwright", "react", "typescript", "testing", "coverage", "e2e"],
+  "agents": [
+    "git",
+    "change-analyzer",
+    "react-ui-flow-analyzer",
+    "async-risk-agent",
+    "ui-regression-agent",
+    "playwright-test-generator",
+    "pytest-runner",
+    "qa-regression-synthesizer"
+  ],
+  "skills": ["react-regression-patterns"]
+}
